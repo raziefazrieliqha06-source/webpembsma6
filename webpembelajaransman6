@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Pembelajaran SMAN 6 Garut</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar">
+      <div class="logo-area">
+        <img src="logo sman 6 grt.jpeg" alt="Logo SMAN 6 Garut">
+        <h1>WEB SMAN 6 GARUT</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#beranda" class="active">Beranda</a></li>
+        <li><a href="#kelas">Kelas</a></li>
+        <li><a href="#repository">Repository</a></li>
+      </ul>
+      <div class="search-box">
+        <input type="text" placeholder="Cari kelas...">
+        <button><i class="fa fa-search"></i></button>
+        <!-- Tombol Dark Mode -->
+    <button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+  </header>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BERANDA -->
+  <section id="beranda" class="beranda">
+    <div class="overlay"></div>
+    <div class="content" data-aos="zoom-in" data-aos-duration="1500">
+      <h2>WEB PEMBELAJARAN</h2>
+      <p>MEDIA PEMBELAJARAN SMAN 6 GARUT</p>
+    </div>
+  </section>
+
+  <section id="tentang" class="tentang">
+  <div class="tentang-container">
+    <h2>Profil SMAN 6 Garut</h2>
+    <p class="deskripsi">
+      SMA Negeri 6 Garut merupakan salah satu sekolah unggulan di Kabupaten Garut yang berkomitmen dalam membentuk peserta didik yang berkarakter, berprestasi, dan siap menghadapi tantangan masa depan. Sekolah ini terus berinovasi dalam bidang pendidikan dengan memanfaatkan teknologi dan pembelajaran berbasis digital.
+    </p>
+  <!--VISI MISI SEKOLAH-->
+    <div class="visi-misi">
+      <div class="visi">
+        <h3>Visi</h3>
+        <p>
+          “Mewujudkan sekolah yang unggul dalam bidang Imtak dan Iptek.
+Menciptakan siswa yang berkarakter, inovatif, dan berwawasan lingkungan.”
+        </p>
+      </div>
+
+      <div class="misi">
+        <h3>Misi</h3>
+        <ul>
+          <li>Meningkatkan keimanan dan ketakwaan kepada Tuhan Yang Maha Esa.</li>
+          <li>Mengembangkan potensi akademik dan non-akademik peserta didik secara optimal.</li>
+          <li>Menumbuhkan karakter disiplin, tanggung jawab, dan kerja sama.</li>
+          <li>Mendorong penggunaan teknologi informasi dalam pembelajaran.</li>
+          <li>Menanamkan kepedulian terhadap lingkungan dan masyarakat sekitar.</li>
+        </ul>
+      </div>
+
+      <div class="motto">
+        <h3>Motto</h3>
+        <p><em>“HIDUP BERNUANSA MANDIRI”</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- KELAS -->
+  <section id="kelas" class="kelas">
+    <h2 data-aos="fade-up" data-aos-duration="1000">Kelas</h2>
+    <div class="kelas-container">
+      <div class="kelas-card" data-aos="fade-right" data-aos-duration="1000">
+        <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Sejarah-BS-KLS-X.pdf">
+        <h3>Kelas X</h3>
+        <p>Materi pembelajaran dasar untuk siswa kelas X.</p>
+        </a>
+      </div>
+      <div class="kelas-card" data-aos="fade-up" data-aos-duration="1000">
+        <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Sejarah-BS-KLS-XI.pdf">
+        <h3>Kelas XI</h3>
+        <p>Pembelajaran lanjutan untuk siswa kelas XI.</p>
+        </a>
+      </div>
+      <div class="kelas-card" data-aos="fade-left" data-aos-duration="1000">
+        <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/k13/bukusiswa/Kelas%20XII%20Sejarah%20BS%20press.pdf">
+        <h3>Kelas XII</h3>
+        <p>Persiapan ujian akhir dan perguruan tinggi untuk kelas XII.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+<!--Video youtube-->
+  <section id="kontak" class="kontak">
+  <h2>PROFILE VIDEO SEKOLAH</h2>
+ 
+
+  <div class="map-container">
+    <iframe 
+      src="https://www.youtube.com/embed/cqUUm78Ylk0?si=xWUlbTmOj-qHEhct" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      width="100%" 
+      height="400" 
+      style="border:0; border-radius: 10px;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+
+  <!--Alamat-->
+  <section id="kontak" class="kontak">
+  <h2>Kontak Kami</h2>
+  <p>Haurpanggung, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151</p>
+  <p>Email: smann_6garut@yahoo.co.id.</p>
+
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.3885965628883!2d107.90430167504637!3d-7.196425942808932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68b102960f47fd%3A0x604ca36efcb77a4d!2sSMAN%206%20Garut%2C%20Haurpanggung%2C%20Kec.%20Tarogong%20Kidul%2C%20Kabupaten%20Garut%2C%20Jawa%20Barat%2044151!5e0!3m2!1sid!2sid!4v1762235795601!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      width="100%" 
+      height="400" 
+      style="border:0; border-radius: 10px;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+
+
+  <!-- REPOSITORY -->
+  <section id="repository" class="repository">
+    <h2 data-aos="fade-up" data-aos-duration="1000">Repository Pembelajaran</h2>
+    <div class="repo-container">
+      <a href="https://repositori.kemendikdasmen.go.id/21731/1/X_Sejarah_KD-3.4_Final.pdf" class="repo-item" data-aos="zoom-in">📘 Modul Sejarah Kelas x</a>
+      <a href="https://repositori.kemendikdasmen.go.id/21997/1/XI_Sejarah-Indonesia_KD-3.4_Final.pdf" class="repo-item" data-aos="zoom-in">📘 Modul Sejarah Kelas XI</a>
+       <a href="http://static.buku.kemdikbud.go.id/content/pdf/bukuteks/k13/bukusiswa/Kelas%20XII%20Sejarah%20BS%20press.pdf" class="repo-item" data-aos="zoom-in">📘 Modul Sejarah Kelas XII</a>
+      <a href="" class="repo-item" data-aos="zoom-in" data-aos-delay="100">📗 Materi Sejarah</a>
+      <a href="#" class="repo-item" data-aos="zoom-in" data-aos-delay="200">📙 Panduan Sejarah</a>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer data-aos="fade-up" data-aos-duration="1000">
+    <p>© 2025 SMAN 6 Garut | Dikembangkan oleh Tim IT Sekolah</p>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+header {
+  background-color: #0095ff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  flex-wrap: wrap;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-area img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.logo-area h1 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #ffe600;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.search-box button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* BERANDA */
+.beranda {
+  height: 100vh;
+  background: url('hal 6.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.beranda .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 70, 150, 0.5);
+}
+
+.beranda .content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.beranda h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.beranda p {
+  font-size: 1.2rem;
+}
+
+/* BAGIAN KELAS */
+.kelas {
+  background: #f4f8ff;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.kelas h2 {
+  color: #004aad;
+  margin-bottom: 2rem;
+}
+
+.kelas-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.kelas-card {
+  background: white;
+  width: 280px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.kelas-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* REPOSITORY */
+.repository {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.repository h2 {
+  color: #004aad;
+  margin-bottom: 1rem;
+}
+
+.repo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.repo-item {
+  background: #0078ff;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.repo-item:hover {
+  background: #005fcc;
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+  background: #002b6b;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.9rem;
+}
+.map-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.kontak {
+  text-align: center;
+  background: #f7faff;
+  padding: 40px 20px;
+}
+/* ======== PROFIL SEKOLAH ======== */
+.tentang {
+  background: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.tentang-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tentang h2 {
+  font-size: 2.2rem;
+  color: #004aad;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.tentang h2::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #004aad;
+  display: block;
+  margin: 10px auto 30px;
+  border-radius: 2px;
+}
+
+.deskripsi {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.visi-misi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.visi, .misi, .motto {
+  background: #f8fbff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.visi:hover, .misi:hover, .motto:hover {
+  transform: translateY(-5px);
+}
+
+.visi h3, .misi h3, .motto h3 {
+  color: #004aad;
+  margin-bottom: 15px;
+}
+
+.misi ul {
+  list-style: none;
+  padding: 0;
+}
+
+.misi ul li {
+  text-align: left;
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+  color: #333;
+  line-height: 1.6;
+}
+
+.misi ul li::before {
+  content: "•";
+  color: #004aad;
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.motto p {
+  font-size: 1.1rem;
+  color: #004aad;
+  font-weight: bold;
+}
+.video-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.video-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+/* DARK MODE TOGGLE */
+.dark-mode-btn {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.dark-mode-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* DARK MODE STYLE */
+body.dark-mode {
+  background-color: #111;
+  color: #ddd;
+}
+
+body.dark-mode header {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+body.dark-mode .hero {
+  background: linear-gradient(135deg, #000428, #004e92);
+}
+
+body.dark-mode .profile-section,
+body.dark-mode .video-section {
+  background: #1a1a1a;
+  color: #ddd;
+}
+
+body.dark-mode footer {
+  background: #000;
+  color: #ccc;
+}
+
+body.dark-mode .section-title::after {
+  background: #00bfff;
+}
+a, button {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ffd700;
+}
+.beranda {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+// Highlight menu aktif saat scroll
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 150;
+    if (pageYOffset >= sectionTop) current = section.getAttribute('id');
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href').includes(current)) link.classList.add('active');
+  });
+});
+// Animasi video saat muncul di layar
+const videoSection = document.querySelector('.video-section');
+
+function showVideoOnScroll() {
+  const triggerBottom = window.innerHeight * 0.8;
+  const videoTop = videoSection.getBoundingClientRect().top;
+
+  if (videoTop < triggerBottom) {
+    videoSection.classList.add('show');
+  }
+}
+
+window.addEventListener('scroll', showVideoOnScroll);
+window.addEventListener('load', showVideoOnScroll);
+// ===== SMOOTH SCROLL =====
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    target.scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+// ===== DARK MODE =====
+const toggle = document.getElementById("darkModeToggle");
+const body = document.body;
+
+// Simpan preferensi user
+if (localStorage.getItem("theme") === "dark") {
+  body.classList.add("dark-mode");
+  toggle.textContent = "☀️";
+}
+
+toggle.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+
+  if (body.classList.contains("dark-mode")) {
+    toggle.textContent = "☀️";
+    localStorage.setItem("theme", "dark");
+  } else {
+    toggle.textContent = "🌙";
+    localStorage.setItem("theme", "light");
+  }
+});
